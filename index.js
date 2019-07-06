@@ -3,7 +3,8 @@
 module.exports = {
   "plugins": [
     "stylelint-scss",
-    "stylelint-high-performance-animation"
+    "stylelint-declaration-block-no-ignored-properties",
+    "declaration-block-no-ignored-properties"
   ],
   "rules": {
     "block-no-empty": true,
@@ -20,7 +21,9 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/at-extend-no-missing-placeholder": true,
 
-    "plugin/no-low-performance-animation-properties": true
+    "plugin/no-low-performance-animation-properties": true,
+    
+    "plugin/declaration-block-no-ignored-properties": true
 
   }
 }

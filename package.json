@@ -16,8 +16,9 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-scss": "^3.9.0",
-    "stylelint-high-performance-animation": "^1.2.1"
+    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+    "stylelint-high-performance-animation": "^1.2.1",
+    "stylelint-scss": "^3.9.0"
   },
   "devDependencies": {},
   "peerDependencies": {
