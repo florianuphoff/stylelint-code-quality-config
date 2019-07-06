@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-code-quality-config",
+  "version": "0.1.0",
+  "description": "Shareable config used to analyze the code quality",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "code quality"
+  ],
+  "license": "MIT",
+  "repository": "florianuphoff/stylelint-code-quality-config",
+  "author": "Florian Uphoff <florianuphoff@mailbox.org>",
+  "homepage": "https://github.com/florianuphoff/stylelint-code-quality-config/",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-scss": "^3.9.0",
+    "stylelint-high-performance-animation": "^1.2.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  }
+}
