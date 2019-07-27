@@ -17,13 +17,18 @@ module.exports = {
     "selector-max-id": true,
     "selector-max-compound-selectors": 3,
     "max-nesting-depth": 3,
+    "selector-pseudo-element-no-unknown": true,
+    "selector-pseudo-class-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "no-unknown-animations": true,
 
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/at-extend-no-missing-placeholder": true,
 
     "plugin/no-low-performance-animation-properties": true,
-    
-    "plugin/declaration-block-no-ignored-properties": true
 
+    "plugin/declaration-block-no-ignored-properties": true,
+
+    "plugin/mixin-extend-usage": true
   }
 }
