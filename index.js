@@ -4,7 +4,7 @@ module.exports = {
   "plugins": [
     "stylelint-scss",
     "stylelint-declaration-block-no-ignored-properties",
-    "declaration-block-no-ignored-properties",
+    "stylelint-high-performance-animation",
     "stylelint-mixin-extend-usage",
     "stylelint-no-undoing-styles"
   ],
