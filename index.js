@@ -6,7 +6,8 @@ module.exports = {
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-high-performance-animation",
     "stylelint-mixin-extend-usage",
-    "stylelint-no-undoing-styles"
+    "stylelint-no-undoing-styles",
+    "stylelint-nestin-depth"
   ],
   "rules": {
     "block-no-empty": true,
@@ -33,6 +34,8 @@ module.exports = {
 
     "plugin/mixin-extend-usage": true,
 
-    "plugin/no-undoing-styles": true
+    "plugin/no-undoing-styles": true,
+
+    "plugin/report-nesting-depth": true
   }
 }
