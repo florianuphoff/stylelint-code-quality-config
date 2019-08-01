@@ -20,7 +20,7 @@
     "stylelint-high-performance-animation": "^1.2.1",
     "stylelint-mixin-extend-usage": "0.1.0",
     "stylelint-nesting-depth": "^0.1.0",
-    "stylelint-no-undoing-styles": "^1.0.0",
+    "stylelint-no-undoing-styles": "^1.1.2",
     "stylelint-scss": "^3.9.2"
   },
   "devDependencies": {},

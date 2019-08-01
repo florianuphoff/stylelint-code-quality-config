@@ -7,7 +7,7 @@ module.exports = {
     "stylelint-high-performance-animation",
     "stylelint-mixin-extend-usage",
     "stylelint-no-undoing-styles",
-    "stylelint-nestin-depth"
+    "stylelint-nesting-depth"
   ],
   "rules": {
     "block-no-empty": true,
