@@ -1,6 +1,6 @@
 {
   "name": "stylelint-code-quality-config",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Shareable config used to analyze the code quality",
   "keywords": [
     "stylelint",
@@ -19,7 +19,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
     "stylelint-high-performance-animation": "^1.2.1",
     "stylelint-mixin-extend-usage": "0.1.0",
-    "stylelint-nesting-depth": "^0.1.0",
+    "stylelint-nesting-depth": "^0.1.2",
     "stylelint-no-undoing-styles": "^1.1.2",
     "stylelint-scss": "^3.9.2"
   },
