@@ -10,31 +10,41 @@ module.exports = {
     "stylelint-nesting-depth"
   ],
   "rules": {
-    "block-no-empty": true,
-    "declaration-block-no-duplicate-properties": true,
-    "declaration-block-no-shorthand-property-overrides": true,
-    "no-descending-specificity": true,
-    "no-duplicate-selectors": true,
-    "selector-attribute-operator-blacklist": [],
-    "selector-max-id": 1,
-    "selector-max-compound-selectors": 3,
-    "max-nesting-depth": 3,
+
+    // syntax
+    "selector-type-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "selector-pseudo-class-no-unknown": true,
-    "selector-type-no-unknown": true,
     "no-unknown-animations": true,
-
-    "scss/selector-no-redundant-nesting-selector": true,
+    
+    // specificity
+    "no-descending-specificity": true,
+    "max-nesting-depth": 3,
+    "selector-max-id": 1,
+    "selector-max-type": 1,
+    "selector-max-class": 2,
+    "selector-max-compound-selectors": 3,
+    "selector-no-qualifying-type": 1,
+    "shorthand-property-no-redundant-values": true,
+    
+    // stylistic
     "scss/at-extend-no-missing-placeholder": true,
-
+    "length-zero-no-unit": true,    
+    
+    // performance
     "plugin/no-low-performance-animation-properties": true,
-
     "plugin/declaration-block-no-ignored-properties": true,
+    "plugin/no-undoing-styles": true,
+    "selector-attribute-operator-blacklist": ["*="],    
+    "block-no-empty": true,    
+    
+    // duplications
+    "scss/selector-no-redundant-nesting-selector": true,
+    "no-duplicate-selectors": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
 
     "plugin/mixin-extend-usage": true,
-
-    "plugin/no-undoing-styles": true,
-
     "plugin/report-nesting-depth": true
   }
 }
