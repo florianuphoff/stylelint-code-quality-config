@@ -1,6 +1,6 @@
 {
   "name": "stylelint-code-quality-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable config used to analyze the code quality",
   "keywords": [
     "stylelint",
