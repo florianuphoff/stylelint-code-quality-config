@@ -51,9 +51,9 @@ indexes-of@^1.0.1:
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
 lodash@^4.17.11:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 postcss-media-query-parser@^0.2.3:
   version "0.2.3"
@@ -105,22 +105,23 @@ stylelint-high-performance-animation@^1.2.1:
   resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.2.1.tgz#544ab13978707c19d1d581d079aa848fa709717a"
   integrity sha512-jHkX30yZP7Z7/EdbS7XyBEn7tWgTZAeJ0XnRXIS776QnVy4FBzsE2GcY9oQPJOPk/z7DdBr4jjpSuh9tn8UeIw==
 
-stylelint-mixin-extend-usage@0.1.0:
+stylelint-mixin-extend-usage@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-mixin-extend-usage/-/stylelint-mixin-extend-usage-0.1.0.tgz#eca7f0c150556bd8ed0d8d39bc0c1b8c8fc4fbc3"
   integrity sha512-FkBXiPnNw2fhRmww5AqvCZ1sfC44spl9rVtj/buMvg4m+sSdhqEEC7VuT1ubExwoWsWHOk1lFPWet6lw/1vPWg==
 
-stylelint-nesting-depth@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-nesting-depth/-/stylelint-nesting-depth-0.1.0.tgz#2a6db60663e006a6882ecfbafebc6fe9b070297d"
-  integrity sha512-P+0SQhxzmBLEp1xTkCD13QeIPuVMnUQUjeXAzmpalADVJ+/Q4ktSl4Q5fI3NbH51F77sdibYAXhKrcg1f1+rPQ==
+stylelint-nesting-depth@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-nesting-depth/-/stylelint-nesting-depth-1.0.1.tgz#342b65903751f495440d2b757bea1d394b997a00"
+  integrity sha512-/EBh5WsIT2z/r0FbD2u/U4ZSy9kIj5ScIp98RZlhc5lbnjbieGqJRj2oFMxpbC8UL8ttnEg/bWyf9C6DKv/nKA==
   dependencies:
+    postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^6.0.2"
 
-stylelint-no-undoing-styles@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/stylelint-no-undoing-styles/-/stylelint-no-undoing-styles-1.1.2.tgz#51842c401df9cd969bc2ec18c74b2c8b12968e33"
-  integrity sha512-9muGMgxL/yPDHD+q8K+FjJkqjPocBHZrm/dRWaWfjSsIsHsLS//1RbCfnkWboCw7Cpk91tFzVrOL5BEt7typtA==
+stylelint-no-undoing-styles@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-no-undoing-styles/-/stylelint-no-undoing-styles-1.2.1.tgz#bcb05b8af37dd7c2733b0c8568d00ed11fd4e914"
+  integrity sha512-n9PM7S9UIZCSx5h7WzIomTL36lxUcujorfiktGXBOXZpKeTh/Yzq36XwFny5Abi4rFSQ/Nltt10J8trPXuczcw==
 
 stylelint-scss@^3.9.2:
   version "3.9.2"
